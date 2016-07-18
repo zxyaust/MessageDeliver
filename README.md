@@ -1,0 +1,2 @@
+# MessageDeliver
+简单的时间处理,类似于EventBus的轻量级事件分发器,轻松处理fragment之间的数据互调,activity与service数据的互调,非常方便,同时非常简单,不需要学习EventBus复杂的逻辑,对于轻量级的使用足够了
