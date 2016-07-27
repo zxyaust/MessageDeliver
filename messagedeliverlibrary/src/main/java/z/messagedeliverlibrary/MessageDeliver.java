@@ -32,4 +32,9 @@ public class MessageDeliver {
     public static void addOnHandleListener(OnHandleListener listener) {
         list.add(listener);
     }
+
+    public static void removeOnHandleListener(OnHandleListener listener) {
+        if (listener != null && list.contains(listener))
+            list.remove(listener);
+    }
 }
